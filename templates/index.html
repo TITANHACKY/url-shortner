@@ -1,0 +1,52 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+</head>
+
+<body>
+    <div class="newsletter-subscribe">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">URL Shortner</h2>
+                <p class="text-justify">A URL shortener, also known as a link shortener. Link shorteners work by transforming any long URL into a shorter, more readable link. When a user clicks the shortened version, they're automatically forwarded to the destination URL.
+</p>
+            </div>
+            <form class="form-inline mb-5" method="post" action="/api/short-url/" id="before">
+                {% csrf_token %}
+                <div class="form-group"><input class="form-control" type="url" id="url" placeholder="Target URL"></div>
+                <div class="form-group"><button id="submit" class="btn btn-primary" type="button">
+                    Shorten
+                </button></div>
+            </form>
+            <div class="mb-3">
+                <form class="form-inline" id="next" hidden>
+                    <div class="form-group"><input class="form-control text-center" type="url" id="short-url" disabled></div>
+                    <div class="form-group">
+                        <button id="copy" class="btn btn-primary" type="button">
+                            Copy
+                        </button>
+                        <button id="back" class="btn btn-primary ml-2" type="button">
+                            Back
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <form class="form-inline">
+
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static '/js/script.js' %}"></script>
+</body>
+</html>
