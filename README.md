@@ -2,21 +2,21 @@
 
 A URL shortener, also known as a link shortener. Link shorteners work by transforming any long URL into a shorter, more readable link. When a user clicks the shortened version, they're automatically forwarded to the destination URL.
 
-##Demo
+## Demo
 The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
 
-[comment]: <> (![]&#40;./media/demo.gif&#41;)
+![](./media/demo.gif)
 
-##Screenshots
+## Screenshots
 
 <div style="align-content: center">
-<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" width="505" height="270"/>
+<img src="./media/screenshot-1.png" alt=""/>
 <hr>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+<img src="./media/screenshot-1.png" alt=""/>
 <hr>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+<img src="./media/screenshot-1.png" alt=""/>
 <hr>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+<img src="./media/screenshot-1.png" alt=""/>
 </div>
 
 ## **Download**
@@ -55,4 +55,4 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 
 
-####Now Start Using Url Shortner By Clicking the link http://127.0.0.1:8000/
+#### Now Start Using Url Shortner By Clicking the link http://127.0.0.1:8000/
