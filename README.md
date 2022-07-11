@@ -5,7 +5,7 @@ A URL shortener, also known as a link shortener. Link shorteners work by transfo
 ##Demo
 The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
 
-![](./media/demo.gif)
+[comment]: <> (![]&#40;./media/demo.gif&#41;)
 
 ##Screenshots
 
