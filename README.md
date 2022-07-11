@@ -12,11 +12,11 @@ The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
 <div style="align-content: center">
 <img src="./media/screenshot-1.png" alt=""/>
 <hr>
-<img src="./media/screenshot-1.png" alt=""/>
+<img src="./media/screenshot-2.png" alt=""/>
 <hr>
-<img src="./media/screenshot-1.png" alt=""/>
+<img src="./media/screenshot-3.png" alt=""/>
 <hr>
-<img src="./media/screenshot-1.png" alt=""/>
+<img src="./media/screenshot-4.png" alt=""/>
 </div>
 
 ## **Download**
