@@ -2,10 +2,10 @@
 
 A URL shortener, also known as a link shortener. Link shorteners work by transforming any long URL into a shorter, more readable link. When a user clicks the shortened version, they're automatically forwarded to the destination URL.
 
-##Demo:
+##Demo
 The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
 
-<video src="./media/url-shorterners.webm" alt="screencast" />
+<video src="./media/url-shorterners.webm"></video>
 
 ##Screenshots
 
