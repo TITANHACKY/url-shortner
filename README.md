@@ -5,16 +5,19 @@ A URL shortener, also known as a link shortener. Link shorteners work by transfo
 ##Demo
 The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
 
-<video src="./media/url-shorterners.webm"></video>
+![](./media/demo.gif)
 
 ##Screenshots
 
-<img src="./media/screenshot-1.png/" alt="screenshot-1"/>
-<img src="./media/screenshot-2.png/" alt="screenshot-1"/>
-<img src="./media/screenshot-3.png/" alt="screenshot-1"/>
-<img src="./media/screenshot-4.png/" alt="screenshot-1"/>
-
-
+<div style="align-content: center">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" width="505" height="270"/>
+<hr>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+<hr>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+<hr>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="./media/screenshot-1.png" src="./media/screenshot-1.png" width="505" height="270"/>
+</div>
 
 ## **Download**
 
