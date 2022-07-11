@@ -1,22 +1,36 @@
-<h1 align="center">URL SHORTNER</h1>
+# URL SHORTNER
 
 A URL shortener, also known as a link shortener. Link shorteners work by transforming any long URL into a shorter, more readable link. When a user clicks the shortened version, they're automatically forwarded to the destination URL.
 
-### **Download**
+##Demo:
+The app is hosted in Heroku -> [Live Demo](https://url-shortners.herokuapp.com/)
+
+<video src="./media/url-shorterners.webm" alt="screencast" />
+
+##Screenshots
+
+<img src="./media/screenshot-1.png/" alt="screenshot-1"/>
+<img src="./media/screenshot-2.png/" alt="screenshot-1"/>
+<img src="./media/screenshot-3.png/" alt="screenshot-1"/>
+<img src="./media/screenshot-4.png/" alt="screenshot-1"/>
+
+
+
+## **Download**
 
 ```
 $ git clone https://github.com/TITANHACKY/url-shortner.git
 ```
 
-### **Dependencies**
+## **Dependencies**
 - python 3
 - django
 - djangorestframework
 
-### **Setup**
+## **Setup**
 
 ```
-#  navigate to frontend 
+#  navigate to project 
 $ cd url-shortener
 
 # install dependencies
